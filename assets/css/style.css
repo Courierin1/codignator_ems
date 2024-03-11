@@ -1,0 +1,409 @@
+/* 09a676  login*/
+/* 194991  register*/
+/* 1aa2b8  password*/
+/* 4472c4 heading color */
+.form-control::placeholder {
+    color: rgb(160, 160, 160);
+  }
+  
+.width-input{
+    width: 350px;
+}
+h1{
+    font-size: 2.2rem !important;
+}
+.btn:hover {
+  
+    background-color: green !important;
+   
+}
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.progress {
+    width: 100%;
+    height: 50px;
+  }
+  
+  .progress-wrap {
+    background: #2faae4;
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .progress-wrap .progress-bar {
+    background: #ddd;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+.img-logo img{
+    width: 175px !important;
+    
+}
+.registration h2{
+    border: 1px solid #09a676;
+    border-radius: 7px;
+    padding:12px 25px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.form-control:focus{
+    outline: unset !important;
+    box-shadow: unset !important;
+    border: 1px solid #000 !important;
+}
+.btn-login{
+    background-color: #09a676;
+    color: #fff;
+    border: 1px solid #09a676;
+    border-radius: 15px; 
+    width: 25%;
+    text-decoration: none;
+}   
+.btn-register{
+    background-color: #194991;
+    color: #fff;
+    border: 1px solid #194991;
+    border-radius: 15px; 
+    width: 25%;
+    text-decoration: none;
+
+}   
+.btn-forget{
+    background-color: #1aa2b8;
+    color: #fff;
+    border: 1px solid #1aa2b8;
+    border-radius: 15px; 
+    width: 25%;
+    text-decoration: none;
+
+}   
+.btn-outline-primary{
+    width: 18%;
+    border-color: #5095fb;
+    color: #5095fb;
+}
+.btn-forget:hover{
+    color: #1aa2b8 !important;
+    background-color: #fff !important;
+
+}
+ .btn-register:hover{
+    color: #194991 !important;
+    background-color: #fff !important;
+} 
+.btn-login:hover{
+    color: #09a676 !important;
+    background-color: #fff !important;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #5095fb;
+    border-color: #5095fb;
+}
+.input-email{
+    position: relative;
+}
+img.img-fluid.img-input {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    right: 38%;
+    top: 13px;
+}
+#Events h1{
+    font-size: 30px !important;
+}
+.cards h3{
+    font-size: 20px;
+}
+.btn-event{
+    background-color: #a8c5e6;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.paragraph{
+    font-size: 13px;
+}
+.truncate {
+    width: 250px;
+    /* height: 250px; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.progress{
+    height: 0.5rem;
+    border-radius: 15px;
+}
+.progress-bar{
+    background-color:#85b0e0 ;
+}
+.btn-event:hover {
+    color: #85b0e0;
+    background-color: #fff;
+    border: 1px solid #85b0e0;
+}
+.cards{
+   border: 1px solid #fff; 
+   padding: 15px;
+   border-top-left-radius: 15px ;
+   border-bottom-right-radius: 15px ;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#event_registration h2{
+    border: 1px solid #4472c4;
+}
+.color-1{
+    color: #4472c4;
+}
+.msg{
+    font-size: 15px;
+    padding: 15px 0px;
+    border-radius: 7px ;
+    
+}
+#event_registration p{
+    font-size: 18px !important;
+    font-weight: 500;
+    color: #000;
+    margin: 15px 5px; 
+}
+#example thead{
+    background-color: #343a40;
+    color: #fff;
+    font-weight: 600;
+}
+#event_add label{
+    font-size: 17px;
+}
+
+.btn-choose{
+    background-color: green;
+}
+#Navigation{
+    background-color: #a8c5e6;
+}
+.navbar{
+    box-shadow: unset !important;
+    background-color: transparent !important;
+}
+.navbar-brand img{
+    width: 100px !important;
+}
+.nav-link{
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 18px;
+    margin: 10px 25px ;
+}
+.active a{
+    border-bottom: 1px solid #fff;
+}
+#athlete h1{
+    font-size: 30px !important;
+    font-weight: 400;
+}
+.bg-theme{
+    background-color: #2faae4;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+}
+.bg-theme h3{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.btn-recaptcha{
+    border: 1px solid #5095fb;
+    background-color: #85b0e0;
+    color: #5095fb;
+
+}
+footer{
+    overflow-x: hidden !important;
+}
+@media only screen and (max-width: 1024px) {
+    img.img-fluid.img-input {
+      right: 32%;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    img.img-fluid.img-input {
+      right: 26%;
+    }
+  }
+@media only screen and (max-width: 425px) {
+    img.img-fluid.img-input {
+      right: 8%;
+    }
+  }
+@media only screen and (max-width: 320px) {
+    img.img-fluid.img-input {
+      right: 5%;
+    }
+    .btn-forget,.btn-register, .btn-login{
+        width: 50%;
+    }
+
+}
+.bg-theme{
+    position: relative;
+}
+.bg-theme::after{
+    content: url(../images/down.png);
+    position: absolute;
+    right: -43px;
+    top: -40px;
+    transform: scale(0.15);
+
+}
+.font-created{
+    font-size: 11px;
+}
+.font-created-2{
+    font-size: 13px;
+}
+.registration{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.text-decoration{
+    text-decoration: underline;
+}
+.fw-5{
+    font-weight: 600;
+}
+.btn-rounded{
+    width: 50px;
+    height: 50px;
+    /* line-height: 1; */
+    background-color: green;
+    border-radius: 50%;
+    font-size: 21px;
+    text-align: center;
+}
+.btn-rounded2{
+    width: 50px;
+    height: 50px;
+    /* line-height: 1; */
+    background-color: red;
+    border-radius: 50%;
+    font-size: 21px;
+    text-align: center;
+}
+.web-anchor{
+    text-decoration: underline;
+    color: #2faae4;
+    font-weight: 600;
+}
+.msg2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+.stars span i{
+    font-size: 12px;
+    color: #f7e700;
+}
+.hotel p{
+    font-size: 15px;
+    margin-bottom: 0;
+    color: #000;
+    font-weight: 500;
+}
+.hotel{
+    border: 1px solid rgb(192, 192, 192);
+    padding: 10px 15px ;
+    border-radius: 11px;
+    background-color: #f6f6f6;
+}
+.rooms span{
+    background-color: #2faae4;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 3px;
+}
+#Rooms_bed .custom-control{
+    margin: 0px 15px;
+
+}
+#Rooms_bed .custom-control-label{
+    font-weight: 600;
+}
+#form .form-label{
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+.total{
+    color : #000;
+    font-size: 15px;
+}
+.total span{
+    font-size: 18px;
+}
+.btn-add{
+    background-color: #85b0e0;
+    color: #fff;
+    margin-right: 15px;
+}
+.btn-add:hover{
+    background-color: #85b0e0;
+    color: #fff;
+    margin-right: 15px;
+}
+.btn-cancel{
+    background-color: #c9c5c5;
+    color: #000;
+}
+.red{
+    padding: 15px;
+    font-size: 30px;
+    color: red;
+    font-weight: 600;
+}
+.total2{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+#cancel{
+    margin-top: 20px;
+}
+#cancel h5{
+    font-size: 15px;
+}
+#cancel p{
+    font-size: 13px;
+    color: #000;
+}
+#cancel ul li{
+    font-size: 13px;
+    
+}
+.checkbox{
+    border: 1px solid #000;
+}
+
+.glow{
+    /* border : 13px; */
+    /* box-shadow: 0 0 50px 15px rgba(72,171,224,45%); */
+    box-shadow: 10px 10px 77px 0px rgba(72,171,224,0.75);
+    -webkit-box-shadow: 10px 10px 77px 0px rgba(72,171,224,0.75);
+    -moz-box-shadow: 10px 10px 77px 0px rgba(72,171,224,0.75);
+}
+input[type=button]:focus, input[type=submit]:focus, input[type=reset]:focus {
+    color: #212529;
+    background-color: green !important ;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}

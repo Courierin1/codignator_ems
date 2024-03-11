@@ -1,0 +1,130 @@
+
+  <div class="col-md-6 d-flex align-items-center hotel_room_append">
+                            <p class="msg2">Choose Official 4 Star or 3 Star Hotel:</p>
+
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-start my-3">
+                        <input type="radio"  required name="star_select[]" id="radio_four_star_`+counter+`" value="4" class="d-none">
+
+                        <label for="radio_four_star_`+counter+`" class="hotel" id="f_star_`+counter+`" onclick="clicktoggle(`+counter+`)">
+
+                            <div class="stars d-flex ml-3">
+                                <p><span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-regular fa-star"></i></span>
+                                </p>
+                            </div>
+                            <p>4 Star Hotel</p>
+                        </label>
+                        <input type="radio" required name="star_select[]" id="radio_three_star_`+counter+`" value="3" class="d-none">
+                        <label for="radio_three_star_`+counter+`" class="hotel mx-2" id="t_star_`+counter+`" onclick="clicktoggle2(`+counter+`)">
+
+                            <div class="stars d-flex ml-3">
+                                <p><span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                    </p>
+                                </div>
+                                <p>3 Star Hotel</p>
+                            </label>
+                        </div>
+                        <hr>
+                        <div class="col-md-4  my-3">
+                            <div class="rooms">
+                                Room <span> 1</span>
+                            </div>
+                        </div>
+                        <div class="col-md-8 d-flex align-items-center" id="Rooms_bed">
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="single_bed_`+counter+`" name="bed_charges[]"
+                                class="custom-control-input">
+                            <label class="custom-control-label" for="single_bed_`+counter+`">Single Bed</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="double_bed_`+counter+`" name="bed_charges[]"
+                                class="custom-control-input">
+                            <label class="custom-control-label" for="double_bed_`+counter+`">Double Bed</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="triple_rate_`+counter+`" name="bed_charges[]"
+                                class="custom-control-input">
+                            <label class="custom-control-label" for="triple_rate_`+counter+`">Triple Rate</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="quad_rate_`+counter+`" name="bed_charges[]"
+                                class="custom-control-input">
+                            <label class="custom-control-label" for="quad_rate_`+counter+`">Quad Rate</label>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-3 d-flex align-items-center">
+                        <div class="custom-control custom-radio custom-control-inline mx-3">
+                            <input type="checkbox" id="customRadioInline12" name="breaKfast[]"
+                                class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline12">BreaKfast</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="checkbox" id="customRadioInline11" name="meals[]"
+                                class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline11">Meal Included</label>
+                        </div>
+                    </div>
+                    <div class="col-md-8 my-3">
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <label for="validationTooltip`+counter+`1">Check in Date</label>
+                                <input type="date" class="form-control" name="checkin[]" id="validationTooltip`+counter+`1" placeholder=""
+                                    value="" required>
+
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="validationTooltip`+counter+`2">Check out Date</label>
+                                <input type="date" class="form-control" name="checkout[]" id="validationTooltip`+counter+`2" placeholder="Last name"
+                                    value="" required>
+
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="validationTooltip`+counter+`2">Total Nights</label>
+                                <input type="number" class="form-control" name="tnight[]" id="validationTooltip`+counter+`2" placeholder=""
+                                    value="" required>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="append_person_`+counter+`">
+
+                   
+                    <!-- second row #   -->
+                    <div class="col-md-2 my-2 " id="form">
+                        <label for="" class="form-label">Person Type:</label>
+                        <select name="person_type[`+counter+`][]" class="form-control" id="person_type">
+                            <option value="Adult">Adult</option>
+                            <option value="Child">Child</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 my-2" id="form">
+                        <label for="" class="form-label">First Name:</label>
+                        <input type="text" name="fname[`+counter+`][]" class="form-control class_check_`+counter+`" placeholder="First Name">
+                    </div>
+                    <div class="col-md-4 my-2" id="form">
+                        <label for="" class="form-label">Last Name:</label>
+                        <input type="text" name="lname[`+counter+`][]" class="form-control" placeholder="Last Name">
+                    </div>
+                    <div class="col-md-2 my-2" id="form">
+                        <label for="" class="form-label">Age:</label>
+                        <input type="number" name="age[`+counter+`][]" class="form-control" placeholder="21">
+                    </div>
+                 </div>
+                    <div class="col-md-2 my-2">
+                        <button class="btn btn-add" onclick="add_room_person(`+counter+`)">Add Person</button>
+                    </div>
+                    <div class="col-md-1`+counter+` d-flex justify-content-center my-4">
+                        <div>
+                            <p class="total">Total Price <input type="number" class="form-control" readonly  name="room_cost[]" id="room_price_`+counter+`"></p>
+
+                        </div>
+                    </div>
